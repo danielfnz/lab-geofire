@@ -1,0 +1,19 @@
+{
+  "name": "lab-geofire",
+  "version": "1.0.0",
+  "description": "Laboratorio de testes com firebase e geofire",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielfnz/lab-geofire.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielfnz/lab-geofire/issues"
+  },
+  "homepage": "https://github.com/danielfnz/lab-geofire#readme"
+}
