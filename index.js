@@ -22,6 +22,17 @@ geoFire.get("estabelecimento").then(function(location) {
 console.log(location);
 });
 
+//Obtem os estabelecimentos com raio de 10km da coodernada
+var geoQuery = geoFire.query({radius : 10, center: [-16.130262, 153.605347]});
 
+//Apresenta os estabelecimentos encontrados
+geoQuery.on("key_entered", function(key, location) {
+  console.log("Estabelecimento encontrado: "+key + "\nLocalização: "+location+'\n');
+});
 
+//Cancela a query, quando o evento é encerrado
+geoQuery.on("ready", function() {
+  console.log("****Query encerrada*******");
+  geoQuery.cancel();
+})
 
