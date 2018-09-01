@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/danielfnz/lab-geofire/issues"
   },
-  "homepage": "https://github.com/danielfnz/lab-geofire#readme"
+  "homepage": "https://github.com/danielfnz/lab-geofire#readme",
+  "dependencies": {
+    "firebase": "^5.4.2",
+    "geofire": "^4.1.2"
+  }
 }
