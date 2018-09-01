@@ -17,6 +17,11 @@ var geoFire = new GeoFire(firebaseRef);
 //Adiciona a localização no firebase
 geoFire.set("estabelecimento", [-16.130262, 153.605347]);
 
+//Obtem a localização da key 'estabelecimento' do firebase
+geoFire.get("estabelecimento").then(function(location) {
+console.log(location);
+});
+
 
 
 
